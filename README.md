@@ -5,9 +5,10 @@ Multi-label toxic comment classification on Wikipedia talk-page comments (Kaggle
 
 ## What this repo does
 It builds a **multi-label** text classifier for toxic comments using:
-- **spaCy preprocessing**
-- **TF-IDF vectors**
-- **spaCy `en_core_web_lg` document embeddings**
+- **Data preprocessing**
+- **Feature extraction (vectorization)** — testing two methods:
+  - **TF-IDF vectors**
+  - **Word embeddings**
 - Multiple ML models wrapped for multi-label prediction
 - Evaluation with **Accuracy** + **ROC-AUC** per label
 
